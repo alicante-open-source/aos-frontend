@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -87,6 +87,99 @@ body {
 .header nav a:hover {
   color: #2ecc71;
   text-decoration: underline;
+}
+
+.content {
+  max-width: 90ch;
+  margin: 0 auto;
+  min-width: 540px;
+  padding: 2em;
+}
+
+.news-item {
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.news-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.news-item-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.news-item-header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.news-item.opened .news-item-header img {
+  border-radius: 10px 10px 0 0;
+}
+
+.news-item-header h2 {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  bottom: 0;
+  padding: 0.75em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 24px;
+  margin: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  border-radius: 0 0 10px 10px;
+}
+
+.news-item.opened .news-item-header h2 {
+  opacity: 0;
+}
+
+.news-item h2::first-letter {
+  text-decoration: underline;
+}
+
+.news-item-body {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+  font: "Space Grotesk", monospace;
+  line-height: 2;
+  transition: all 0.3s ease;
+  border-radius: 0 0 10px 10px;
+}
+
+.news-item-body h2 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  margin: 0;
+  border-bottom: 1px solid #000;
+}
+
+.news-item.opened .news-item-body {
+  display: block;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.news-item-body p {
+  text-align: left;
 }
 
 @media all and (max-width: 1024px) {

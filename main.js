@@ -16,3 +16,12 @@ if (!titleIndex) {
   document.getElementById("title").innerHTML = titles[newTitleIndex];
   localStorage.setItem("titleIndex", newTitleIndex);
 }
+
+const newsItems = document.getElementsByClassName("news-item");
+
+for (let i = 0; i < newsItems.length; i++) {
+  newsItems[i].addEventListener("click", (e) => {
+    e.preventDefault();
+    newsItems[i].classList.toggle("opened");
+  });
+}
