@@ -1,9 +1,9 @@
 const titles = [
-  "> Alicante Open Source",
-  "> alicanteOpenSource",
-  "> alicante-open-source",
-  "> AlicanteOpenSource",
-  "> alicante_open_source",
+  "Alicante Open Source",
+  "alicanteOpenSource",
+  "alicante-open-source",
+  "AlicanteOpenSource",
+  "alicante_open_source",
 ];
 
 const titleIndex = localStorage.getItem("titleIndex");
