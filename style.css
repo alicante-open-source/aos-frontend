@@ -29,7 +29,7 @@ nav {
     font-size: 12px;
   }
   nav h1 {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
@@ -98,7 +98,6 @@ nav ul li::first-letter {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 24px;
   margin: 0;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
@@ -125,7 +124,6 @@ nav ul li::first-letter {
 }
 
 .news-item-body h2 {
-  font-size: 24px;
   padding-bottom: 20px;
   margin: 0;
   border-bottom: 1px solid #000;
@@ -172,13 +170,13 @@ a:hover {
 
 h1 {
   font-family: "Space Mono", monospace;
-  font-size: 32px;
+  font-size: 28px;
   margin: 0;
 }
 
 h2 {
   font-family: "Space Mono", monospace;
-  font-size: 24px;
+  font-size: 22px;
   margin: 0;
 }
 
@@ -189,9 +187,10 @@ p {
 }
 
 .animated-type {
-  display: inline-block;
   white-space: nowrap;
-  animation: type 0.5s steps(40, end);
+  overflow: hidden;
+  max-width: fit-content;
+  animation: type 1s steps(20);
 }
 
 .animated-type::before {
@@ -213,7 +212,7 @@ p {
     width: 0;
   }
   100% {
-    width: fit-content;
+    width: 100%;
   }
 }
 
