@@ -6,8 +6,22 @@
   </head>
   <body>
     <nav id="navbar"></nav>
-    <div class="content"></div>
+    <div class="content" id="content">
+      <div class="event-header">
+        <h2>Listado de eventos</h2>
+        <div class="event-header-inputs">
+          <div class="checkbox-field">
+            <input type="checkbox" id="oldEventToggle" checked="true" />
+            <label for="oldEventToggle" class="toggle-label">
+              Ver eventos pasados
+            </label>
+          </div>
+          <input type="text" id="search" placeholder="Buscar..." />
+        </div>
+      </div>
+    </div>
 
-    <script src="main.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/events.js"></script>
   </body>
 </html>

@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "name": "Open Source Jam",
+    "start_date": "2023-02-04",
+    "end_date": "2023-02-05",
+    "url": "https://opensourcejam.com",
+    "social": [
+      {
+        "name": "Interacso Twitter",
+        "url": "https://twitter.com/interacso"
+      },
+      {
+        "name": "Teralco Twitter",
+        "url": "https://twitter.com/teralco"
+      },
+      {
+        "name": "Alicante Futura Twitter",
+        "url": "https://twitter.com/alicantefutura"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Game Jam Alicante",
+    "start_date": "2023-02-18",
+    "end_date": "2023-02-19",
+    "url": "https://gamejamalicante.com",
+    "social": [
+      {
+        "name": "GameJamAlicante Twitter",
+        "url": "https://twitter.com/gamejamalicante"
+      },
+      {
+        "name": "GameJamAlicante Facebook",
+        "url": "https://www.facebook.com/gamejamalicante"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hackathon Alicante",
+    "start_date": "2023-02-25",
+    "end_date": "2023-02-26",
+    "url": "https://hackathonalicante.com",
+    "social": [
+      {
+        "name": "HackathonAlicante Twitter",
+        "url": "https://twitter.com/hackathonalica"
+      },
+      {
+        "name": "HackathonAlicante Facebook",
+        "url": "https://www.facebook.com/hackathonalicante"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Hacktoberfest",
+    "start_date": "2023-10-01",
+    "end_date": "2023-10-31",
+    "url": "https://hacktoberfest.digitalocean.com",
+    "social": [
+      {
+        "name": "Hacktoberfest Twitter",
+        "url": "https://twitter.com/hacktoberfest"
+      },
+      {
+        "name": "Hacktoberfest Facebook",
+        "url": "https://www.facebook.com/hacktoberfest"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Alicante Mocked Jam Weekend",
+    "start_date": "2023-03-25",
+    "end_date": "2023-03-26",
+    "url": "https://alicantemockedjam.com",
+    "social": [
+      {
+        "name": "Alicante Mocked Jam Twitter",
+        "url": "https://twitter.com/alicantemocked"
+      },
+      {
+        "name": "Alicante Mocked Jam Facebook",
+        "url": "https://www.facebook.com/alicantemocked"
+      }
+    ]
+  }
+]
