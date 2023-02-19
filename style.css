@@ -115,7 +115,7 @@ nav ul li::first-letter {
 
 .news-item-body {
   display: none;
-  padding: 20px;
+  padding: 2em;
   background-color: #fff;
   font: "Space Grotesk", monospace;
   line-height: 2;
@@ -190,7 +190,7 @@ h2 {
 p {
   font-family: "Space Grotesk", monospace;
   font-size: 16px;
-  margin: 0;
+  margin: 1em 0;
 }
 
 .animated-type {

@@ -4,7 +4,7 @@ const NAVBAR_CONTENT = `
 <h1 id="title" class="animated-type"></h1>
 <div class="menu">
   <ul>
-    <li><a href="/">Noticias</a></li>
+    <li><a href="index.html">Noticias</a></li>
     <li><a href="events.html">Eventos</a></li>
     <li><a href="repos.html">Repositorios</a></li>
     <li><a href="resources.html">Recursos</a></li>
@@ -42,13 +42,4 @@ if (!titleIndex) {
     titleIndex < titles.length - 1 ? parseInt(titleIndex) + 1 : 0;
   document.getElementById("title").innerHTML = titles[newTitleIndex];
   localStorage.setItem("titleIndex", newTitleIndex);
-}
-
-const newsItems = document.getElementsByClassName("news-item");
-
-for (let i = 0; i < newsItems.length; i++) {
-  newsItems[i].addEventListener("click", (e) => {
-    e.preventDefault();
-    newsItems[i].classList.toggle("opened");
-  });
 }
